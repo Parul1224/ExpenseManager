@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="horizontal"
+    android:background="#000000"
+    android:gravity="center">
+<Button
+    android:id="@+id/registerGameButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Grocery"
+    android:onClick="grocery"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="5sp"
+    android:layout_marginRight="2sp"
+    android:layout_marginTop="0sp" />
+<Button
+    android:id="@+id/closeButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Employee"
+    android:onClick="employee"
+    android:layout_marginBottom="5sp"
+    android:layout_marginLeft="2sp"
+    android:layout_marginRight="5sp"
+    android:layout_marginTop="0sp"/>
+
+</LinearLayout>
