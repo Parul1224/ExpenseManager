@@ -18,10 +18,8 @@ public class MainActivity extends AppCompatActivity {
         String uniqueID = UUID.randomUUID().toString();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference(uniqueID);
+        setContentView(R.layout.activity_main);
         super.onCreate(savedInstanceState);
-        List obj=new List("Pav","154shjh",5,25);
-        myRef.setValue(obj);
-
      }
     public void grocery(View view)
     {

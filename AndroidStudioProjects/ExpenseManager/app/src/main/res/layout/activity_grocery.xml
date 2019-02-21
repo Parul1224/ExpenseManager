@@ -7,14 +7,63 @@
      android:orientation="vertical"
     android:layout_marginLeft="20dp"
     android:layout_marginTop="20dp"
-    tools:context=".Employee">
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Grocery">
 
 
+        <EditText
+            android:id="@+id/item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter The Item"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:textColor="@android:color/white" />
 
-<EditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/name_text"
-    android:text="Enter the Item"/>
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:text="Enter The Price"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter The Quantity"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:textColor="@android:color/white" />
+
+
+        <EditText
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter The Day"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/submit"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:text="Submit"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
 
 </LinearLayout>
